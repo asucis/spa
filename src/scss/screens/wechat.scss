@@ -1,0 +1,10 @@
+.wechat {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  text-align: center;
+
+  .details {
+    margin: 2rem 2rem 5rem;
+  }
+}

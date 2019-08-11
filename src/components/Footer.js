@@ -66,7 +66,7 @@ function Footer() {
           </a>
         </div>
         <div className="icon">
-          <a href="/weixin">
+          <a href="/weixin" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'weixin']} />
           </a>
         </div>
