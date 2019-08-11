@@ -1,0 +1,80 @@
+header.hero {
+  opacity: 0.8;
+  position: relative;
+  background: url('../../assets/hero.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  display: grid;
+  grid-template-rows: 6rem auto 60px;
+
+  .logo {
+    text-align: center;
+    img {
+      padding: 0.75rem 0 0;
+      width: 4.8rem;
+    }
+  }
+
+  .content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1rem 1rem 0;
+    font-family: 'Roboto', sans-serif;
+    h1 {
+      font-size: 2.6rem;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+    }
+  }
+
+  .social-links {
+    text-align: center;
+    display: inline-block;
+
+    .icon {
+      display: inline-block;
+      font-size: 1.5rem;
+      background-color: $dark-primary;
+      border-radius: 25px;
+      min-width: 58px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 2px;
+
+      /* unvisited link */
+      a:link {
+        color: $light-primary;
+      }
+
+      /* visited link */
+      a:visited {
+        color: $light-primary;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: $white;
+      }
+
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+}
