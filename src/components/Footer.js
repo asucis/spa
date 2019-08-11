@@ -58,11 +58,19 @@ function Footer() {
       </div>
       <div className="credits">
         Built by{' '}
-        <a href="https://www.dickwyn.xyz" target="_blank">
+        <a
+          href="https://www.dickwyn.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           dickwyn
         </a>
         . The code is available under the{' '}
-        <a href="https://www.dickwyn.xyz" target="_blank">
+        <a
+          href="https://www.dickwyn.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           MIT License
         </a>
       </div>
