@@ -22,7 +22,7 @@ function Content() {
     autoplay: true
   };
   return (
-    <main>
+    <main id="content">
       <div className="item-container">
         <div className="item">
           <div className="left">

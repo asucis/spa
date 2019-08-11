@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import logo from '../assets/logo.png';
 
 function Hero() {
@@ -16,7 +17,15 @@ function Hero() {
         </h2>
       </div>
       <div className="action">
-        <FontAwesomeIcon icon={faChevronCircleDown} />
+        <Link
+          activeClass="active"
+          to="content"
+          spy={true}
+          smooth={true}
+          duration={800}
+        >
+          <FontAwesomeIcon icon={faChevronCircleDown} />
+        </Link>
       </div>
     </header>
   );
