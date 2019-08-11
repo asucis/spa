@@ -54,6 +54,7 @@ footer {
     }
 
     @media only screen and (min-width: $mobile) {
+      width: 65%;
       grid-template-columns: 4fr 1fr;
 
       .action {
