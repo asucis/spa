@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/logo.png';
 
 function Hero() {
@@ -12,6 +14,9 @@ function Hero() {
         <h2>
           Valuing our organization by whom we include and how they succeed
         </h2>
+      </div>
+      <div className="action">
+        <FontAwesomeIcon icon={faChevronCircleDown} />
       </div>
     </header>
   );
