@@ -47,9 +47,9 @@ function Footer() {
           </a>
         </div>
         <div className="icon">
-          {/* <Link to="/wechat"> */}
-          <FontAwesomeIcon icon={['fab', 'weixin']} />
-          {/* </Link> */}
+          <a href="/weixin">
+            <FontAwesomeIcon icon={['fab', 'weixin']} />
+          </a>
         </div>
       </div>
       <div className="copyright-text">

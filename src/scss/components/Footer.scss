@@ -6,6 +6,7 @@ footer {
 
   .address {
     padding: 0 0 30px;
+    line-height: 1.5rem;
   }
 
   .social-links {
@@ -23,12 +24,31 @@ footer {
 
       a:link,
       a:visited {
-        color: $light-primary;
+        .fa-facebook-f {
+          color: #3c5a99;
+        }
+
+        .fa-twitter {
+          color: #1da1f2;
+        }
+
+        .fa-instagram {
+          color: #c13584;
+        }
+
+        .fa-weixin {
+          color: #09b83e;
+        }
       }
 
       a:hover,
       a:active {
-        color: $white;
+        .fa-facebook-f,
+        .fa-twitter,
+        .fa-instagram,
+        .fa-weixin {
+          color: $white;
+        }
       }
 
       &:not(:last-child) {
@@ -43,6 +63,6 @@ footer {
   }
 
   .credits {
-    padding: 7px 17px 17px;
+    padding: 7px 17px 37px;
   }
 }
