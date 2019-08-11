@@ -56,7 +56,16 @@ function Footer() {
         Arizona State University © Coalition of International Students. 2019.
         All rights reserved.
       </div>
-      <div className="credits">Built by dickwyn</div>
+      <div className="credits">
+        Built by{' '}
+        <a href="https://www.dickwyn.xyz" target="_blank">
+          dickwyn
+        </a>
+        . The code is available under the{' '}
+        <a href="https://www.dickwyn.xyz" target="_blank">
+          MIT License
+        </a>
+      </div>
     </footer>
   );
 }
