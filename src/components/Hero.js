@@ -9,7 +9,9 @@ function Hero() {
       </div>
       <div className="content">
         <h1>We believe in diversity</h1>
-        <h2>We value ourself by whom we include, not whom we exclude</h2>
+        <h2>
+          Valuing our organization by whom we include and how they succeed
+        </h2>
       </div>
     </header>
   );

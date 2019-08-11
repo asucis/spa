@@ -134,6 +134,22 @@ function Content() {
           </div>
         </div>
       </div>
+      <div className="item-container">
+        <div className="item">
+          <div className="left">
+            <h1>Contact Us</h1>
+          </div>
+          <div className="right">
+            <p>
+              Get in touch with us to learn more about our work and how you can
+              get involved. Reach out to our public relations manager - Yi Ao
+            </p>
+            <p>
+              <a href="mailto:hsingyia@asu.edu">hsingyia@asu.edu</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
