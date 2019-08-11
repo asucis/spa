@@ -7,7 +7,8 @@ main {
     padding: 3rem 1.5rem;
     background-color: $white;
 
-    .item {
+    .item,
+    .event-list {
       display: grid;
       grid-template-columns: 1fr;
       grid-column-gap: 2rem;
@@ -25,23 +26,67 @@ main {
       }
     }
 
+    .event-list {
+      grid-row-gap: 2rem;
+
+      .event {
+        padding: 0.75rem;
+        border: 1px solid $divider;
+        border-radius: 4px;
+
+        button {
+          padding: 0.5rem;
+          background-color: transparent;
+          border: 1px solid $secondary-text;
+          border-radius: 8px;
+
+          &:hover,
+          &:focus {
+            border: 1px solid $primary;
+            background-color: $primary;
+          }
+
+          a {
+            font-size: 0.75rem;
+            text-decoration: none;
+
+            &:link,
+            &:visited {
+              color: $secondary-text;
+            }
+
+            &:hover,
+            &:active {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+
     @media only screen and (min-width: 600px) {
       .item {
-        grid-template-columns: 3fr 2fr;
+        grid-template-columns: 5fr 2fr;
 
         h1 {
           margin-top: 0;
+        }
+      }
+
+      .event-list {
+        grid-template-columns: repeat(3, 1fr);
+        h1 {
+          grid-column: span 3;
         }
       }
     }
   }
 
   .item-container:nth-child(even) {
-    // padding: 3rem 1.5rem;
     background-color: whitesmoke;
 
     .slider-item {
-      padding: 2.3rem;
+      padding: 3rem 2.3rem;
       button.slick-arrow::before {
         font-size: 1.5rem;
         color: $divider;
@@ -50,7 +95,7 @@ main {
 
     @media only screen and (min-width: 600px) {
       .slider-item {
-        padding: 9rem;
+        padding: 5rem 9rem;
       }
     }
   }
