@@ -8,7 +8,16 @@ library.add(fab);
 function Footer() {
   return (
     <footer>
-      <div className="contact-info">RM 225J, 400 E Orange St.</div>
+      <div className="address">
+        Visit us:
+        <br />
+        <br />
+        RM 225J, Student Pavilion,
+        <br />
+        400 E Orange St,
+        <br />
+        Tempe, Arizona 85281.
+      </div>
       <div className="social-links">
         <div className="icon">
           <a

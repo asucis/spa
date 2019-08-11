@@ -4,6 +4,10 @@ footer {
   text-align: center;
   color: $white;
 
+  .address {
+    padding: 0 0 30px;
+  }
+
   .social-links {
     padding: 17px;
     display: inline-block;
@@ -11,31 +15,20 @@ footer {
     .icon {
       display: inline-block;
       font-size: 1.5rem;
-      //   background-color: $dark-primary;
       border-radius: 25px;
       min-width: 58px;
       margin: 0 auto;
       text-align: center;
       padding-top: 2px;
 
-      /* unvisited link */
-      a:link {
-        color: $light-primary;
-      }
-
-      /* visited link */
+      a:link,
       a:visited {
         color: $light-primary;
       }
 
-      /* mouse over link */
-      a:hover {
-        color: $white;
-      }
-
-      /* selected link */
+      a:hover,
       a:active {
-        color: blue;
+        color: $white;
       }
 
       &:not(:last-child) {
