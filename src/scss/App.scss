@@ -9,3 +9,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+button {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid $secondary-text;
+  border-radius: 8px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $primary;
+    background-color: $primary;
+  }
+}

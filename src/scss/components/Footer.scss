@@ -1,8 +1,61 @@
 footer {
   background-color: $divider;
-  padding: 68px 0 0;
+  padding: 10px 0 0;
   text-align: center;
   color: $white;
+
+  .sign-up {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0.75rem 0;
+    background-color: $primary;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    visibility: visible;
+    top: -50px;
+    z-index: 200;
+
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    div {
+      padding: 0 2rem;
+    }
+
+    .action {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+      }
+
+      button {
+        font-size: 1rem;
+        font-weight: 700;
+        border: 1.3px solid $white;
+        border-color: $white;
+        color: $white;
+
+        &:hover {
+          background-color: $accent;
+        }
+      }
+    }
+
+    @media only screen and (min-width: $mobile) {
+      grid-template-columns: 4fr 1fr;
+    }
+  }
 
   .address {
     padding: 0 0 30px;

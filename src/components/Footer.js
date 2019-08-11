@@ -8,6 +8,25 @@ library.add(fab);
 function Footer() {
   return (
     <footer>
+      <div className="sign-up">
+        <div className="text">
+          <h3>
+            <span role="img" aria-label="excited-hands">
+              🙌🏼
+            </span>{' '}
+            Recruitment for the Fall 2019 semester is now open till August 20.
+          </h3>
+        </div>
+        <div className="action">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScYWH-jgigFyOBrsvxmumMnOsHjvbhKMR4PUWByAJzz8q9i0Q/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Sign up</button>
+          </a>
+        </div>
+      </div>
       <div className="address">
         Visit us:
         <br />
