@@ -67,7 +67,7 @@ function Footer() {
         </a>
         . The code is available under the{' '}
         <a
-          href="https://www.dickwyn.xyz"
+          href="https://github.com/asucis/spa/blob/master/LICENSE"
           target="_blank"
           rel="noopener noreferrer"
         >
