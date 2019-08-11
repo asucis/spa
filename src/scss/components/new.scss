@@ -37,44 +37,4 @@ header.hero {
       font-size: 1.6rem;
     }
   }
-
-  .social-links {
-    text-align: center;
-    display: inline-block;
-
-    .icon {
-      display: inline-block;
-      font-size: 1.5rem;
-      background-color: $dark-primary;
-      border-radius: 25px;
-      min-width: 58px;
-      margin: 0 auto;
-      text-align: center;
-      padding-top: 2px;
-
-      /* unvisited link */
-      a:link {
-        color: $light-primary;
-      }
-
-      /* visited link */
-      a:visited {
-        color: $light-primary;
-      }
-
-      /* mouse over link */
-      a:hover {
-        color: $white;
-      }
-
-      /* selected link */
-      a:active {
-        color: blue;
-      }
-
-      &:not(:last-child) {
-        margin-right: 10px;
-      }
-    }
-  }
 }
