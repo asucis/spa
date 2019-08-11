@@ -14,7 +14,7 @@ footer {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     visibility: visible;
-    top: -50px;
+    top: -70px;
     z-index: 200;
 
     display: inline-grid;
@@ -32,8 +32,9 @@ footer {
 
     .action {
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
       align-items: center;
+      margin-bottom: 0.75rem;
 
       a {
         text-decoration: none;
@@ -54,6 +55,10 @@ footer {
 
     @media only screen and (min-width: $mobile) {
       grid-template-columns: 4fr 1fr;
+
+      .action {
+        justify-content: flex-end;
+      }
     }
   }
 
