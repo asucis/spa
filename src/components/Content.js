@@ -85,8 +85,7 @@ function Content() {
           <div className="event">
             <h2>What the Football</h2>
             <p>
-              Introducing new international Sun Devils what it is like to be an
-              ASU student.
+              Learn about American football and meet the local football lovers
             </p>
             <button>
               <a
