@@ -8,7 +8,7 @@ library.add(fab);
 function Footer() {
   return (
     <footer>
-      <div className="sign-up">
+      {/* <div className="sign-up">
         <div className="text">
           <h3>
             <span role="img" aria-label="excited-hands">
@@ -26,7 +26,7 @@ function Footer() {
             <button>Sign up</button>
           </a>
         </div>
-      </div>
+      </div> */}
       <div className="address">
         Visit us:
         <br />
