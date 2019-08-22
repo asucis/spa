@@ -8,13 +8,13 @@ library.add(fab);
 function Footer() {
   return (
     <footer>
-      {/* <div className="sign-up">
+      <div className="sign-up">
         <div className="text">
           <h3>
             <span role="img" aria-label="excited-hands">
               🙌🏼
             </span>{' '}
-            Recruitment for the Fall 2019 semester is now open till August 20.
+            Recruitment for the Fall 2019 semester is now open till August 24.
           </h3>
         </div>
         <div className="action">
@@ -26,7 +26,7 @@ function Footer() {
             <button>Sign up</button>
           </a>
         </div>
-      </div> */}
+      </div>
       <div className="address">
         Visit us:
         <br />
