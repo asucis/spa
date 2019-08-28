@@ -46,10 +46,11 @@ footer {
         border: 1.3px solid $white;
         border-color: $white;
         color: $white;
+        text-decoration: line-through;
 
-        &:hover {
-          background-color: $accent;
-        }
+        // &:hover {
+        //   background-color: $accent;
+        // }
       }
     }
 

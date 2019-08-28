@@ -14,13 +14,14 @@ function Footer() {
             <span role="img" aria-label="excited-hands">
               😢
             </span>{' '}
-            Fall 2019 recruitment is now closed. Please try again in Spring 2020.
+            Fall 2019 recruitment is now closed. Please try again in Spring
+            2020.
           </h3>
         </div>
         <div className="action">
-          <a href="#">
-            <button style="text-decoration: line-through;">Sign up</button>
-          </a>
+          {/* <a href="#"> */}
+          <button disabled>Sign up</button>
+          {/* </a> */}
         </div>
       </div>
       <div className="address">
