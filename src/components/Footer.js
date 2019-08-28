@@ -12,14 +12,14 @@ function Footer() {
         <div className="text">
           <h3>
             <span role="img" aria-label="excited-hands">
-              🙌🏼
+              😢
             </span>{' '}
-            Recruitment for the Fall 2019 semester is now open till August 24.
+            Fall 2019 recruitment is now closed. Please try again in Spring 2020.
           </h3>
         </div>
         <div className="action">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScYWH-jgigFyOBrsvxmumMnOsHjvbhKMR4PUWByAJzz8q9i0Q/viewform"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
