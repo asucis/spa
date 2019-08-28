@@ -18,12 +18,8 @@ function Footer() {
           </h3>
         </div>
         <div className="action">
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button>Sign up</button>
+          <a href="#">
+            <button style="text-decoration: line-through;">Sign up</button>
           </a>
         </div>
       </div>
