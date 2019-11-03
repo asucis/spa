@@ -16,6 +16,12 @@ class App extends Component {
         tickets <a href="https://signup.asucis.com">here</a>
         <br />
         <br />
+        Learn more about the event at{' '}
+        <a href="https://internationalnight.asucis.com">
+          internationalnight.asucis.com
+        </a>
+        <br />
+        <br />
         #ASUINTLNIGHT
         <br />
         #asuglobal
