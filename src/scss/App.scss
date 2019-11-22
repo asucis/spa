@@ -1,14 +1,14 @@
-@import './variables';
-@import './components/Hero';
-@import './components/Content';
-@import './components/Footer';
-@import './screens/wechat';
+@import "./variables";
+@import "./components/Hero";
+@import "./components/Content";
+@import "./components/Footer";
+@import "./screens/wechat";
 
 body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // margin: 0;
+  // font-family: 'Roboto', sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
 }
 
 button {
