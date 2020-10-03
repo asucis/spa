@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/single-page-website/static/css/main.76e7a00a.chunk.css",
+    "main.js": "/single-page-website/static/js/main.5171b6ce.chunk.js",
+    "main.js.map": "/single-page-website/static/js/main.5171b6ce.chunk.js.map",
+    "runtime~main.js": "/single-page-website/static/js/runtime~main.d9f16a2a.js",
+    "runtime~main.js.map": "/single-page-website/static/js/runtime~main.d9f16a2a.js.map",
+    "static/css/2.2e874457.chunk.css": "/single-page-website/static/css/2.2e874457.chunk.css",
+    "static/js/2.0d4140d1.chunk.js": "/single-page-website/static/js/2.0d4140d1.chunk.js",
+    "static/js/2.0d4140d1.chunk.js.map": "/single-page-website/static/js/2.0d4140d1.chunk.js.map",
+    "index.html": "/single-page-website/index.html",
+    "precache-manifest.ded53e51e7a9b91dfd3b45b3b7921a78.js": "/single-page-website/precache-manifest.ded53e51e7a9b91dfd3b45b3b7921a78.js",
+    "service-worker.js": "/single-page-website/service-worker.js",
+    "static/css/2.2e874457.chunk.css.map": "/single-page-website/static/css/2.2e874457.chunk.css.map",
+    "static/css/main.76e7a00a.chunk.css.map": "/single-page-website/static/css/main.76e7a00a.chunk.css.map",
+    "static/media/cis-office.jpg": "/single-page-website/static/media/cis-office.22266505.jpg",
+    "static/media/cis-wechat.jpg": "/single-page-website/static/media/cis-wechat.ac22cf16.jpg",
+    "static/media/App.scss": "/single-page-website/static/media/hero.7d04abc2.jpg",
+    "static/media/logo.png": "/single-page-website/static/media/logo.2e9db6ba.png",
+    "static/media/slick-theme.css": "/single-page-website/static/media/slick.f97e3bbf.svg",
+    "static/media/slide-1.png": "/single-page-website/static/media/slide-1.a8268c02.png",
+    "static/media/slide-2.png": "/single-page-website/static/media/slide-2.3edc0844.png",
+    "static/media/slide-3.JPG": "/single-page-website/static/media/slide-3.473ea829.JPG",
+    "static/media/slide-4.JPG": "/single-page-website/static/media/slide-4.01f7d12e.JPG",
+    "static/media/slide-5.jpg": "/single-page-website/static/media/slide-5.43b682f3.jpg",
+    "static/media/slide-6.jpg": "/single-page-website/static/media/slide-6.63558014.jpg"
+  }
+}
