@@ -1,7 +1,7 @@
 {
   "name": "single-page-website",
   "version": "0.1.0",
-  "homepage": "http://asucis.github.io/single-page-website",
+  "homepage": "https://asucis.github.io/single-page-website/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-brands-svg-icons": "^5.10.1",
