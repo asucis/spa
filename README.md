@@ -1,6 +1,6 @@
-# Single page website 
+# Website
 
-An experiment to condense the usual website in a single page layout.
+A landing page for ASU Coalition of International Students
 
 ## 🚀 Quick Start
 
