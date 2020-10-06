@@ -15,4 +15,4 @@ $ yarn start
 
 ## License
 
-The contents of this repository are covered under the [MIT License](https://github.com/asucis/website/blob/master/LICENSE).
+The contents of this repository are covered under the [MIT License](https://github.com/asucis/website/blob/main/LICENSE).
