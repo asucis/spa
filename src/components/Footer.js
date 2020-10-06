@@ -83,7 +83,7 @@ function Footer() {
         </a>
         . The code is available under the{' '}
         <a
-          href="https://github.com/asucis/single-page-website/blob/master/LICENSE"
+          href="https://github.com/asucis/website/blob/master/LICENSE"
           target="_blank"
           rel="noopener noreferrer"
         >

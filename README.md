@@ -5,8 +5,8 @@ An experiment to condense the usual website in a single page layout.
 ## 🚀 Quick Start
 
 ```sh
-$ git clone https://github.com/asucis/single-page-website.git
-$ cd single-page-website
+$ git clone https://github.com/asucis/website.git
+$ cd website
 $ yarn
 $ yarn start
 ```
@@ -15,4 +15,4 @@ $ yarn start
 
 ## License
 
-The contents of this repository are covered under the [MIT License](https://github.com/asucis/single-page-website/blob/master/LICENSE).
+The contents of this repository are covered under the [MIT License](https://github.com/asucis/website/blob/master/LICENSE).
